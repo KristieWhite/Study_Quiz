@@ -1,0 +1,136 @@
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+.center {
+	text-align: center;
+}
+button {
+	padding: 1em;
+	background-color: gray;
+	border: 1px solid yellow;
+}
+.yellow {
+	color: yellow;
+}
+p {
+	font-size: 1.2em;
+}
+.menuContainer {
+	width: 100%;
+}
+.menu {
+	border: 1px solid white;
+	/*margin: 1em auto 0 auto;*/
+	margin-top: 1em;
+	width: 40%;
+	display: inline-block;
+}
+#idfCodes {
+	background-color: #983A91;
+}
+#idfQuiz {
+	background-color: #2C5CAB;
+}
+#disp {
+	background-color: brown;
+}
+#dispQuiz {
+	background-color: #E6A123;
+}
+#phonetic {
+	background-color: #260E4C;
+}
+#phoneticQuiz {
+	background-color: #1E9696;
+}
+
+
+/*mobile query starts here*/
+/*width was 320-480*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 700px) and (-webkit-min-device-pixel-ratio: 2) {
+     body {
+     	background-color: black;
+     	color: white;
+     }
+    hr {
+    	border: 1px solid gray;
+    }
+    #idfCodes{ height: 100px; }
+    #idfQuiz { height: 100px; }
+    #disp { height: 100px; }
+    #dispQuiz{ height: 100px; }
+    #phonetic { height: 100px; }
+    #phoneticQuiz { height: 100px; }
+
+}/*closes mobile query*/
+/****************************************************************************************************/
+/*tablet query starts here*/
+/*width was 768-1024*/
+@media only screen and (min-device-width: 701px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+	body {
+		background-color: black;
+		color: white;
+	}
+	hr {
+		border: 1px solid gray;
+	}
+	#idfCodes{}
+    #idQuiz {}
+    #disp {}
+    #dispQuiz{}
+    #phonetic {}
+    #phoneticQuiz {}
+
+}/*closes tablet query*/
+/*****************************************************************************************************/
+/*laptop query starts here*/
+/*width was 1200-1600*/
+@media screen and (min-device-width: 1025px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) { 	
+
+	body {
+		background-color: #413B61;
+		color: white;
+	}
+	
+	hr {
+		border: 1px double gray;
+	}
+	#buttons {
+		margin-top: 3em;
+	}
+	#quizP {
+		letter-spacing: .25em;
+	}
+	#idfCodes{}
+    #idQuiz {}
+    #disp {}
+    #dispQuiz{}
+    #phonetic {}
+    #phoneticQuiz {}
+
+}/*closes laptop query*/
+/************************************************************************************************/
+/*large screen query starts here*/
+/*width was 1824*/
+@media only screen  and (min-width : 1601px) {
+	body {
+		background-color: #413B61;
+		color: white;
+	}
+	hr {
+		border: 1px solid gray;
+	}
+	#idfCodes{}
+    #idQuiz {}
+    #disp {}
+    #dispQuiz{}
+    #phonetic {}
+    #phoneticQuiz {}
+
+
+}/*closes large screen query*/	

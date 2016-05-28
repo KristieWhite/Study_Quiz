@@ -1,0 +1,83 @@
+#homeIcon {
+	position: fixed;
+	width: 75px;
+	top: 0;
+	left: 0;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+.center {
+	text-align: center;
+}
+button {
+	padding: 1em;
+	background-color: gray;
+	border: 1px solid yellow;
+}
+.yellow {
+	color: yellow;
+}
+
+
+/*mobile query starts here*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+     body {
+     	background-color: black;
+     	color: white;
+     }
+   
+    hr {
+    	border: 1px solid gray;
+    }
+
+}/*closes mobile query*/
+/****************************************************************************************************/
+/*tablet query starts here*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+	body {
+		background-color: black;
+		color: white;
+	}
+
+	hr {
+		border: 1px solid gray;
+	}
+
+}/*closes tablet query*/
+/*****************************************************************************************************/
+/*laptop query starts here*/
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) { 	
+
+	body {
+		background-color: #413B61;
+		color: white;
+	}
+	
+	hr {
+		border: 1px double gray;
+	}
+	#buttons {
+		margin-top: 3em;
+	}
+	#quizP {
+		letter-spacing: .25em;
+	}
+
+}/*closes laptop query*/
+/************************************************************************************************/
+/*large screen query starts here*/
+@media only screen  and (min-width : 1824px) {
+	body {
+		background-color: #413B61;
+		color: white;
+	}
+	
+	hr {
+		border: 1px solid gray;
+	}
+
+
+}/*closes large screen query*/	

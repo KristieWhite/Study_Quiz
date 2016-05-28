@@ -1,0 +1,139 @@
+	#homeIcon {
+	position: fixed;
+	width: 75px;
+	top: 0;
+	left: 0;
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+	#header p {
+		font-size: 1em;
+	}
+	h4 {
+		font-size: 1em;
+	}
+	p {
+		font-size: 1.5em;
+	}
+	button {
+		padding: 1.5em;
+		border: 1px solid yellow;
+		background-color: gray;
+		color: white;
+	}
+	.yellow {
+		color: yellow;
+	}
+	#quizContainer {
+		width: 100%;
+	}
+	a {
+		color: white;
+		text-decoration: none;
+	}
+	#footer p {
+		font-size: 1em;
+	}
+	#footer {
+		margin-top: 10em;
+	}
+
+
+/*mobile query starts here*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+     body {
+     	background-color: black;
+     	color: white;
+     }
+    .center {
+      	text-align: center;
+    }
+    hr {
+    	border: 1px solid gray;
+    }
+ 	#quiz {
+		width: 95%;
+		margin: auto;
+	}
+	#buttons {
+		width: 95%;
+		margin: auto;
+	}   
+
+}/*closes mobile query*/
+/****************************************************************************************************/
+/*tablet query starts here*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+	body {
+		background-color: black;
+		color: white;
+	}
+	.center {
+		text-align: center;
+	}
+	hr {
+		border: 1px solid gray;
+	}
+	#quiz {
+		width: 90%;
+		margin: auto;
+	}
+	#buttons {
+		width: 90%;
+		margin: auto;
+	}	
+	
+}/*closes tablet query*/
+/*****************************************************************************************************/
+/*laptop query starts here*/
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) { 	
+
+	body {
+		background-color: #413B61;
+		color: white;
+	}
+	.center {
+		text-align: center;
+	}
+	hr {
+		/*border: 1px double white;*/
+	}
+	#quiz {
+		width: 70%;
+		margin: auto;
+	}
+	#buttons {
+		width: 70%;
+		margin: auto;
+	}
+			
+
+
+}/*closes laptop query*/
+/************************************************************************************************/
+/*large screen query starts here*/
+@media only screen  and (min-width : 1824px) {
+	body {
+		background-color: #413B61;
+		color: white;
+	}
+	.center {
+		text-align: center;
+	}
+	hr {
+		border: 1px solid gray;
+	}
+	#quiz {
+		width: 70%;
+		margin: auto;
+	}
+	#buttons {
+		width: 70%;
+		margin: auto;
+	}
+
+
+}/*closes large screen query*/	
+
