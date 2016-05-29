@@ -9,7 +9,7 @@
 	font-size: 1em;
 }
 a {
-	color: white;
+	color: rgb(223,223,223);
 	text-decoration: none;
 }
 .center {
@@ -29,7 +29,7 @@ button {
 @media only screen and (min-device-width: 320px) and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
      body {
      	background-color: black;
-     	color: white;
+     	color: rgb(223,223,223);
      }
     hr {
     	border: 1px solid gray;
@@ -42,7 +42,7 @@ button {
 @media only screen and (min-device-width: 601px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
 	body {
 		background-color: black;
-		color: white;
+		color: rgb(223,223,223);
 	}
 
 	hr {
@@ -56,7 +56,7 @@ button {
 
 	body {
 		background-color: black;
-		color: white;
+		color: rgb(223.223.223);
 	}
 	
 	hr {
@@ -75,7 +75,7 @@ button {
 @media only screen  and (min-width : 1601px) {
 	body {
 		background-color: black;
-		color: white;
+		color: rgb(223,223,223);
 	}
 	
 	hr {

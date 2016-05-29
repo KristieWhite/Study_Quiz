@@ -30,7 +30,7 @@
 		width: 100%;
 	}
 	a {
-		color: white;
+		color: rgb(223,223,223);
 		text-decoration: none;
 	}
 	#footer p {
@@ -45,7 +45,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
      body {
      	background-color: black;
-     	color: white;
+     	color: rgb(223,223,223);
      }
     .center {
       	text-align: center;
@@ -68,7 +68,7 @@
 @media only screen and (min-device-width: 601px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
 	body {
 		background-color: black;
-		color: white;
+		color: rgb(223,223,223);
 	}
 	.center {
 		text-align: center;
@@ -92,7 +92,7 @@
 
 	body {
 		background-color: black;
-		color: white;
+		color: rgb(223,223,223);
 	}
 	.center {
 		text-align: center;
@@ -117,7 +117,7 @@
 @media only screen  and (min-width : 1601px) {
 	body {
 		background-color: black;
-		color: white;
+		color: rgb(223,223,223);
 	}
 	.center {
 		text-align: center;
