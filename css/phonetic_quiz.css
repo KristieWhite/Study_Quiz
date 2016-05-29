@@ -42,7 +42,7 @@
 
 
 /*mobile query starts here*/
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
      body {
      	background-color: black;
      	color: white;
@@ -65,7 +65,7 @@
 }/*closes mobile query*/
 /****************************************************************************************************/
 /*tablet query starts here*/
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width: 601px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
 	body {
 		background-color: black;
 		color: white;
@@ -88,10 +88,10 @@
 }/*closes tablet query*/
 /*****************************************************************************************************/
 /*laptop query starts here*/
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) { 	
+@media screen and (min-device-width: 1025px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) { 	
 
 	body {
-		background-color: #413B61;
+		background-color: black;
 		color: white;
 	}
 	.center {
@@ -114,9 +114,9 @@
 }/*closes laptop query*/
 /************************************************************************************************/
 /*large screen query starts here*/
-@media only screen  and (min-width : 1824px) {
+@media only screen  and (min-width : 1601px) {
 	body {
-		background-color: #413B61;
+		background-color: black;
 		color: white;
 	}
 	.center {
