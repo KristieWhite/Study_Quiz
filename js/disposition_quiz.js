@@ -1,5 +1,5 @@
 
-window.onload = function() {
+// window.onload = function() {
 
 	function quizConstructor(question, answer, enabled, asked) {
 		this.question = question;
@@ -278,7 +278,7 @@ window.onload = function() {
 		document.getElementById("answerP").style.visibility = "hidden";
 
 	
-}//closes onload function
+// }//closes onload function
 
 
 	function getAnswer(){
