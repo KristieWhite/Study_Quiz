@@ -261,52 +261,40 @@
 	}];
 
 	
+	//GENERATE QUESTION
 	quiz = quiz.map(function(el) {
 		return new quizConstructor(el.question, el.answer, el.enabled, el.asked);
 	});
 
-	do {
-		var randomNum = Math.floor(Math.random() * quiz.length);
-	} while (quiz[randomNum].enabled == false || quiz[randomNum].asked ==1);
-	
-		var question = quiz[randomNum].question + " ";
-		var answer = quiz[randomNum].answer + " ";
-	
-		// document.getElementById("qa").innerHTML += "<p>" + question + answer + "</p>";
+		do {
+			var randomNum = Math.floor(Math.random() * quiz.length);
+		} while (quiz[randomNum].enabled == false || quiz[randomNum].asked ==1);
+
+		var question = quiz[randomNum].question;
+		var answer = quiz[randomNum].answer;
+
 		document.getElementById("questionP").innerHTML = question;
 		document.getElementById("answerP").innerHTML = answer;
 		document.getElementById("answerP").style.visibility = "hidden";
-
 	
-// }//closes onload function
-
-
-	function getAnswer(){
+	//SHOW ANSWER
+	function getAnswer() {
 		document.getElementById("answerP").style.visibility = "visible";
 	}
 
-	// function.getAnswer(getBtn, e) {
-	// 	document.getElementById('answerP').style.visibility = 'visible';
-	// 	if ( e.keyCode == 13) {
-	// 		var getBtn = document.getElementById(getBtn);
-	// 		if (getBtn) {
-	// 			getBtn.click();
-	// 			return false;
-	// 		}
-	// 	}
-	// }
-	
-	function refreshPage(){
-		window.location.reload();
-	}
+	//NEXT QUESTION
+	function nextQuestion(quizConstructor){
 
-	// function doClick(next, e) {
-	// 	if (e.keyCode == 13) {
-	// 		var nextQues = document.getElementById(next);
-	// 		if (nextQues) {
-	// 			nextQues.click();
-	// 			return false;
-	// 		}
-	// 	}
-	// }
+		do {
+			var randomNum = Math.floor(Math.random() * quiz.length);
+		} while (quiz[randomNum].enabled == false || quiz[randomNum].asked ==1);
+
+		var question = quiz[randomNum].question;
+		var answer = quiz[randomNum].answer;
+
+		document.getElementById("questionP").innerHTML = question;
+		document.getElementById("answerP").innerHTML = answer;
+		document.getElementById("answerP").style.visibility = "hidden";
+		// window.location.reload();
+	}
 
