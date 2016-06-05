@@ -93,7 +93,7 @@ $(document).ready(function(){
 		$('#shk').slideToggle();
 	});
 	$('#king').click(function(){
-		$('#king').slideToggle();
+		$('#shking').slideToggle();
 	});
 
 	$('#l').click(function(){
