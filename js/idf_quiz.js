@@ -119,7 +119,7 @@
 		asked: 0
 	},{
 		question: "406A",
-		answer: "BURGLARY ALARM"
+		answer: "BURGLARY ALARM",
 		enabled: true,
 		asked: 0
 	},{
@@ -140,7 +140,7 @@
 	},{
 		question: "407",
 		answer: "ROBBERY",
-		enabled: true;
+		enabled: true,
 		asked: 0
 	},{
 		question: "ROBBERY",
