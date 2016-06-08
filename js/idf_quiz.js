@@ -859,11 +859,11 @@
 		asked: 0
 	},{
 		question: "485",
-		answer: "COMMUNITY CONTRACT",
+		answer: "COMMUNITY CONTACT",
 		enabled: true,
 		asked: 0
 	},{
-		question: "COMMUNITY CONTRACT",
+		question: "COMMUNITY CONTACT",
 		answer: "485",
 		enabled: true,
 		asked: 0
