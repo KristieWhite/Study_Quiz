@@ -24,39 +24,44 @@ p {
 	width: 100%;
 }
 .menu {
-	border: 1px solid white;
-	/*margin: 1em auto 0 auto;*/
-	margin-top: 1em;
+	margin: 1em .15em 1em .15em;
+	padding: .25em;
 	width: 40%;
 	display: inline-block;
 }
 #idfCodes {
 	background-color: #983A91;
+	border-left: 2px solid #848484;
 }
 #idfQuiz {
 	background-color: #2C5CAB;
+	border-right: 2px solid #848484;
 }
 #disp {
 	background-color: brown;
+	border-left: 2px solid #848484;
 }
 #dispQuiz {
 	background-color: #E6A123;
+	border-right: 2px solid #848484;
 }
 #phonetic {
 	background-color: #260E4C;
+	border-left: 2px solid #848484;
 }
 #phoneticQuiz {
 	background-color: #1E9696;
+	border-right: 2px solid #848484;
 }
 
 
 /*mobile query starts here*/
 /*width was 320-480*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 700px) and (-webkit-min-device-pixel-ratio: 2) {
-     body {
+    body {
      	background-color: black;
      	color: rgb(223,223,223);
-     }
+    }
     hr {
     	border: 1px solid gray;
     }
