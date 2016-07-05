@@ -5,6 +5,9 @@
 	left: 0;
 	padding-right: 3px;
 }
+body {
+	color: rgb(223,223,223);
+}
 #header p {
 	font-size: 1em;
 }
@@ -22,6 +25,12 @@ button {
 }
 .yellow {
 	color: yellow;
+}
+.orange {
+	color: orange;
+}
+#footer {
+	color: white;
 }
 
 

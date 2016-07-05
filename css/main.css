@@ -24,7 +24,7 @@ p {
 	width: 100%;
 }
 .menu {
-	margin: 1em .15em 1em .15em;
+		margin: 1em .15em 1em .15em;
 	padding: .25em;
 	width: 40%;
 	display: inline-block;

@@ -20,6 +20,12 @@ button {
 .yellow {
 	color: yellow;
 }
+.orange {
+	color: orange;
+}
+#footer {
+	color: white;
+}
 
 
 /*mobile query starts here*/
