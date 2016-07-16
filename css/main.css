@@ -31,27 +31,27 @@ p {
 }
 #idfCodes {
 	background-color: #983A91;
-	border-left: 2px solid #848484;
+	/*border-bottom: 1px dotted white;*/
 }
 #idfQuiz {
 	background-color: #2C5CAB;
-	border-right: 2px solid #848484;
+	/*border-bottom: 1px dotted white;*/
 }
 #disp {
 	background-color: brown;
-	border-left: 2px solid #848484;
+	/*border-bottom: 1px dotted white;*/
 }
 #dispQuiz {
-	background-color: #E6A123;
-	border-right: 2px solid #848484;
+	background-color: #d88c00;
+	/*border-bottom: 1px dotted white;*/
 }
 #phonetic {
 	background-color: #260E4C;
-	border-left: 2px solid #848484;
+	/*border-bottom: 1px dotted white;*/
 }
 #phoneticQuiz {
 	background-color: #1E9696;
-	border-right: 2px solid #848484;
+	/*border-bottom: 1px dotted white;*/
 }
 
 
